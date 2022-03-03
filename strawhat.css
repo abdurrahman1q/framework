@@ -152,6 +152,11 @@
     list-style: square;
 }
 
+.sticky-nav {
+    position: sticky;
+    top: 0;
+}
+
 .ul-nav {
     list-style-type: none;
     margin: 0;
@@ -160,7 +165,16 @@
     background-color: rgb(2, 80, 25);
     display: flex;
     flex-wrap: wrap;
-/*     flex-direction: row-reverse; */
+
+
+}
+
+.ul-nav input[type=text] {
+    flex-direction: row-reverse;
+    padding: 5px;
+    margin: 11px 16px;
+    border: none;
+    font-size: 16px;
 }
 
 .ul-blue {
@@ -174,7 +188,6 @@
     padding: 5px;
     list-style-position: inside;
 }
-
 
 
 .li-a-nav {
@@ -243,7 +256,7 @@
 }
 
 .justify-content-safe {
-    justify-content: safe ;
+    justify-content: safe;
 }
 
 .justify-content-baseline {
